@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+	background-color: #333;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	padding-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.container__clock {
+	border: 2px solid white;
+	font-size: 3rem;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 1rem 2rem;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.container__clock span {
+	margin-right: 0.5rem;
+	letter-spacing: 0.3rem;
+}
