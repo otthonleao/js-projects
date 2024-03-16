@@ -1,0 +1,41 @@
+body {
+	background-color: #071e02;
+	padding-top: 2rem;
+}
+
+.container__quote {
+	background-color: #062c03;
+	font-size: 1.6rem;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid rgb(5, 157, 23);
+	color: #FFF;
+	border-radius: 0.4rem;
+}
+
+.container__quote .text {
+	margin-bottom: 10px;
+}
+
+.container__quote .author {
+  font-weight: bold;
+  color: #939593;
+}
+
+.container__quote .button {
+	font-size: 20px;
+	background-color:#071e02;
+  color: #fff;
+  border: none;
+	text-transform: uppercase;
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container__quote .button:hover {
+  background-color: rgb(5, 157, 23);
+}
