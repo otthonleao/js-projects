@@ -11,7 +11,7 @@ body {
 	margin: 0 auto;
 	padding: 20px;
 	border: 2px solid rgb(5, 157, 23);
-	color: #FFF;
+	color: #fff;
 	border-radius: 0.4rem;
 }
 
@@ -20,22 +20,23 @@ body {
 }
 
 .container__quote .author {
-  font-weight: bold;
-  color: #939593;
+	font-weight: bold;
+	color: #939593;
 }
 
 .container__quote .button {
 	font-size: 20px;
-	background-color:#071e02;
-  color: #fff;
-  border: none;
+	background-color: rgb(5, 157, 23);
+	color: #fff;
+	border: none;
 	text-transform: uppercase;
-  border-radius: 5px;
-  padding: 15px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+	border-radius: 5px;
+	padding: 15px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	box-shadow: 0 2px 10px rgba(247, 244, 244, 0.5);
 }
 
 .container__quote .button:hover {
-  background-color: rgb(5, 157, 23);
+	background-color: #175d07;
 }
